@@ -1,0 +1,6 @@
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore Google Cloud credentials and other JSON secrets
+*.json
