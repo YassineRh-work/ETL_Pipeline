@@ -13,7 +13,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.getenv("GOOGLE_APPLICATION_CRE
 # Step 1: Extract Data from OpenWeatherMap API
 
 # Replace 'your-actual-api-key' with your OpenWeatherMap API key
-api_key = '7c38887a804554e7e393240f571793f9'
+api_key = os.getenv("api_weather")
 city = 'New York'
 api_url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}'
 
