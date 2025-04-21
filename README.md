@@ -23,7 +23,10 @@ Create a .env file in the project root with the following content:
 api_weather=your_openweathermap_api_key
 GOOGLE_APPLICATION_CREDENTIALS=path_to_your_google_credentials.json
 
+```
+
 3. Script Descriptions
+
 main.py – ETL to BigQuery
 Extract: Weather data for New York using OpenWeatherMap API.
 Transform: Convert temperature from Kelvin to Fahrenheit and clean data using Pandas.
@@ -42,8 +45,6 @@ Timestamp
 Output:
 HTML file cities_weather_map.html with an interactive map.
 Automatically opens the map in your default browser.
-
-```
 
 ## 🖼️ Weather Map Preview
 ![alt text](https://github.com/YassineRh-work/ETL_Pipeline/blob/main/map_preview.png)
