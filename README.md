@@ -11,16 +11,13 @@ This project fetches real-time weather data from the [OpenWeatherMap API](https:
 
 ## 🔧 Setup
 
+```bash
 ### 1. Install Dependencies
 
-```bash
 pip install requests pandas google-cloud-bigquery python-dotenv folium
 
----
 
 ### 2. Environment Configuration
-
-```bash
 
 Create a .env file in the project root with the following content:
 api_weather=your_openweathermap_api_key
