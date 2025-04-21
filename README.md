@@ -43,6 +43,8 @@ Output:
 HTML file cities_weather_map.html with an interactive map.
 Automatically opens the map in your default browser.
 
+```
+
 ## 🖼️ Weather Map Preview
 ![alt text](https://github.com/YassineRh-work/ETL_Pipeline/blob/main/map_preview.png)
 
