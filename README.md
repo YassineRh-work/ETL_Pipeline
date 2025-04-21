@@ -42,6 +42,8 @@ Timestamp
 Output:
 HTML file cities_weather_map.html with an interactive map.
 Automatically opens the map in your default browser.
+
+## 🖼️ Weather Map Preview
 ![Weather Map Preview](map_preview.png)
 
 
