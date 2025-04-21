@@ -12,18 +12,18 @@ This project fetches real-time weather data from the [OpenWeatherMap API](https:
 ## 🔧 Setup
 
 ```bash
-### 1. Install Dependencies
+1. Install Dependencies
 
 pip install requests pandas google-cloud-bigquery python-dotenv folium
 
 
-### 2. Environment Configuration
+2. Environment Configuration
 
 Create a .env file in the project root with the following content:
 api_weather=your_openweathermap_api_key
 GOOGLE_APPLICATION_CREDENTIALS=path_to_your_google_credentials.json
 
-📜 Script Descriptions
+3. Script Descriptions
 main.py – ETL to BigQuery
 Extract: Weather data for New York using OpenWeatherMap API.
 Transform: Convert temperature from Kelvin to Fahrenheit and clean data using Pandas.
