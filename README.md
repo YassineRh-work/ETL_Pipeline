@@ -24,8 +24,8 @@ api_weather=your_openweathermap_api_key
 GOOGLE_APPLICATION_CREDENTIALS=path_to_your_google_credentials.json
 
 ```
-
-3. Script Descriptions
+---
+Script Descriptions
 
 main.py – ETL to BigQuery
 Extract: Weather data for New York using OpenWeatherMap API.
